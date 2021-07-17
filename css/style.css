@@ -1,0 +1,31 @@
+:root{
+    --dark: #16191c;
+    --dark: #1e2126;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+.form-control, .btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.img1{
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.min-vh-100 {
+    min-height: 120vh!important;
+}
